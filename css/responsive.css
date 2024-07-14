@@ -1,6 +1,9 @@
 /* Extra Small Devices (Phones) */
 @media (max-width: 576.99px) {
     /* Styles for phones */
+    .section-title {
+      font-size: 30px;
+    }
     #header{
        /* height: 430px; */
        height: auto;
@@ -17,11 +20,24 @@
     .banner-text p{
       width: 96%;
     }
+    /* donate part start */
+    .donate-text .inner-text {
+      max-width: 500px;
+    }
+    .inner-counter .item-1 ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .inner-counter .item-1{
+      max-width: 360px;
+    }
   }
-  
   /* Small Devices (Tablets) */
   @media (min-width: 577px) and (max-width: 767.99px) {
     /* Styles for tablets */
+    .section-title {
+      font-size: 35px;
+    }
     #header{
       height: 375px;
     }
@@ -32,6 +48,17 @@
     .banner-text h1 {
       font-size: 45px;
       line-height: 64px;
+    }
+    /* donate part */
+    .donate-text .inner-text {
+      max-width: 500px;
+    }
+    .inner-counter .item-1{
+      max-width: 450px;
+    }
+    .inner-counter .item-1 ul {
+      display: flex;
+      flex-wrap: wrap;
     }
   }
   /* Medium Devices (Small Laptops) */

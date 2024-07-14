@@ -41,7 +41,7 @@ a{
     font-size: 14px;
     font-weight: 400;
     color: #707070;
-    line-height: 28px;
+    line-height: 30px;
 }
 .common-btn{
     font-size: 14px;
@@ -109,7 +109,7 @@ a{
     text-align: center;
 }
 .donate-text .inner-text{
-    max-width: 650px;
+    max-width: 550px;
 }
 .donate-text .inner-text p{
     padding: 10px 0;
@@ -128,6 +128,8 @@ a{
 }
 .inner-counter .item-1 ul{
    display: flex;
+   justify-content: center;
+    align-items: center;
    gap: 5px;
 }
 .inner-counter .item-1 ul li{
