@@ -2,6 +2,9 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+body .gap:nth-child(even){
+    margin: 120px 0;
+}
 *{
     padding: 0;
     margin:0 ;
@@ -48,7 +51,9 @@ a{
     background: #FF5959;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 /* header part start */
 #header{
    background: url(../image/banner.png);
@@ -87,6 +92,79 @@ a{
     width: 100%;
     color: #FFFFFF;
 } 
-
-
 /* header part end */
+/* donate part start */
+#donate{
+    background-color: #ffffff;
+}
+.donate-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.donate-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.donate-text .inner-text{
+    max-width: 650px;
+}
+.donate-text .inner-text p{
+    padding: 10px 0;
+}
+.donate-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate-counter .inner-counter{
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: center;
+}
+.inner-counter .item-1 ul{
+   display: flex;
+   gap: 5px;
+}
+.inner-counter .item-1 ul li{
+    width: 120px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: ease-in-out 0.2s;
+}
+.inner-counter .item-1 ul li:hover{
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+}
+.inner-counter .item-1 ul li:hover span{
+  color: #FF5959;
+  transition: ease-in-out 0.2s;
+}
+.inner-counter .item-1 ul li span{
+    font-size: 25px;
+    font-weight: 600;
+    color: #707070;
+    display: inline-block;
+}
+.inner-counter .item-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.inner-counter .item-2 span{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+}
+/* donate part end */

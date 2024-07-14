@@ -51,7 +51,6 @@
       display: block;
     }
   }
-  
   /* Large Devices (Laptops) */
   @media (min-width: 992px) and (max-width: 1199.99px) {
     /* Styles for laptops */
@@ -69,7 +68,6 @@
       display: block;
     }
   }
-  
   /* Extra Large Devices (Desktops) */
   @media (min-width: 1200px) {
     /* Styles for desktops */
