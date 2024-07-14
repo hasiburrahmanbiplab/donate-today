@@ -57,6 +57,19 @@
     .contribute-container .contribute-content:nth-child(2){
       flex-direction: column-reverse;
   }
+  /* update */
+  .update-container .update-form {
+     width: 100%;
+  }
+  .update-form form {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+  }
+  .update-form .common-btn{
+    border-radius: 5px !important;
+  }
   }
   /* Small Devices (Tablets) */
   @media (min-width: 577px) and (max-width: 767.99px) {
@@ -96,6 +109,10 @@
     }
     .donate-card .inner-card{
       max-width: 330px;
+    }
+    /* update part start */
+    .update-container .update-form {
+      width: 90%;
     }
   }
   /* Medium Devices (Small Laptops) */

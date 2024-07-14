@@ -231,3 +231,46 @@ a{
     object-fit: cover;
 }
 /* contritute part end */
+/* update part start */
+.update-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.update-container .update-text{
+    max-width: 600px;
+    text-align: center;
+}
+.update-container .update-text p{
+    padding: 10px 0;
+}
+.update-container .update-form{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0a9134d;
+}
+.update-form form{
+    width: 80%;
+    height: 48px;
+    background-color: red;
+    display: flex;
+}
+form input[type="email"]{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #707070;
+    padding: 0 10px;
+    border: none;
+}
+form button{
+    border: none;
+    border-radius: 0px !important;
+}
+/* update part end */
