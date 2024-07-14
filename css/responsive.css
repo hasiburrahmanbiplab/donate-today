@@ -31,6 +31,18 @@
     .inner-counter .item-1{
       max-width: 360px;
     }
+    /* donatePlant part start */
+    .donate-plan-container .donate-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 20px;
+      border: 1px solid blue;
+    }
+    .donate-card .inner-card{
+      max-width: 330px;
+    }
   }
   /* Small Devices (Tablets) */
   @media (min-width: 577px) and (max-width: 767.99px) {
@@ -59,6 +71,18 @@
     .inner-counter .item-1 ul {
       display: flex;
       flex-wrap: wrap;
+    }
+    /* donate-plant  */
+    .donate-plan-container .donate-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 20px;
+      border: 1px solid blue;
+    }
+    .donate-card .inner-card{
+      max-width: 330px;
     }
   }
   /* Medium Devices (Small Laptops) */
