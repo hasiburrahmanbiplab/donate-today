@@ -1,24 +1,86 @@
 /* Extra Small Devices (Phones) */
-@media (max-width: 575.99px) {
+@media (max-width: 576.99px) {
     /* Styles for phones */
+    #header{
+       /* height: 430px; */
+       height: auto;
+    }
+    .banner-text{
+      max-width: 445px;
+      padding: 35px 0;
+      row-gap: 15px;
+    }
+    .banner-text h1 {
+      font-size: 35px;
+      line-height: 46px;
+    }
+    .banner-text p{
+      width: 96%;
+    }
   }
   
   /* Small Devices (Tablets) */
-  @media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 577px) and (max-width: 767.99px) {
     /* Styles for tablets */
+    #header{
+      height: 375px;
+    }
+    .banner-text {
+      max-width: 545px;
+      row-gap: 13px;
+    }
+    .banner-text h1 {
+      font-size: 45px;
+      line-height: 64px;
+    }
   }
-  
   /* Medium Devices (Small Laptops) */
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.99px) {
     /* Styles for small laptops */
+     #header{
+      height: 425px;
+     }
+     .banner-text{
+       max-width: 650px;
+     }
+     .banner-text h1 {
+      font-size: 50px;
+      line-height: 66px;
+    }
+    .banner-text p span{
+      display: block;
+    }
   }
   
   /* Large Devices (Laptops) */
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.99px) {
     /* Styles for laptops */
+    .banner-text h1 {
+      width: 100%;
+      font-size: 55px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 75px;
+    }
+    #header{
+      height: 450px;
+    }
+    .banner-text p span{
+      display: block;
+    }
   }
   
   /* Extra Large Devices (Desktops) */
   @media (min-width: 1200px) {
     /* Styles for desktops */
+    .banner-text {
+      max-width: 770px;
+    }
+    .banner-text h1 {
+      font-size: 65px;
+      line-height: 86px;
+    }
+    .banner-text p span{
+      display: block;
+    }
   }

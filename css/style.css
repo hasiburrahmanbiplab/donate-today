@@ -51,12 +51,13 @@ a{
 }
 /* header part start */
 #header{
-  background-color: #1212126b;
-  background-image: url(../image/banner.png);
-  background-position: center;
-  background-repeat: no-repeat;;
-  background-blend-mode: overlay;
-  height: 650px;
+   background: url(../image/banner.png);
+   background-color: #12121242;
+   background-blend-mode: overlay;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 550px;
 }
 .banner-content{
     width: 100%;
@@ -66,23 +67,26 @@ a{
     align-items: center;
 }
 .banner-text{
-    max-width: 820px;
+    max-width: 717px;
+    text-align: center;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    row-gap: 20px;
 }
-.banner-text h1{
-    font-size: 65px;
+.banner-text h1 {
+    width: 100%;
+    font-size: 55px;
     font-weight: 600;
     color: #ffffff;
-    line-height: auto;
-}
+    line-height: 75px;
+  }
 .banner-text p{
+    width: 100%;
     color: #FFFFFF;
-}
+} 
 
 
 /* header part end */
