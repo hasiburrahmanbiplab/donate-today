@@ -66,6 +66,7 @@ a{
    background-size: cover;
    background-position: center;
    height: 550px;
+   margin-top: 0px;
 }
 .banner-content{
     width: 100%;
