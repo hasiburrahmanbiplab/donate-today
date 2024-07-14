@@ -2,6 +2,9 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+body .gap{
+    background-color: #ffffff;
+}
 body .gap:nth-child(even){
     margin: 120px 0;
 }
@@ -27,6 +30,7 @@ a{
     max-width: 992px;
     border: 1px solid rgb(4, 255, 66);
     margin: 0 auto;
+    padding: 10px;
 }
 .hover-color{
    background-color: #fff4d6;
@@ -94,9 +98,6 @@ a{
 } 
 /* header part end */
 /* donate part start */
-#donate{
-    background-color: #ffffff;
-}
 .donate-container{
     display: flex;
     flex-direction: column;
@@ -171,9 +172,6 @@ a{
 }
 /* donate part end */
 /* donatePlant part start */
-#donate-plant{
-    background-color: #ffffff;
-}
 .donate-plan-container{
     display: flex;
     flex-direction: column;
@@ -181,7 +179,7 @@ a{
 }
 .donate-plan-container .donate-card{
     display: flex;
-    gap:20px
+    gap:20px;
 }
 .donate-card .inner-card{
     display: flex;
@@ -202,3 +200,34 @@ a{
     padding: 5px 0;
 }
 /* donatePlant part end */
+/* contritute part start */
+.contribute-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.contribute-container .contribute-content:nth-child(2){
+    flex-direction: row-reverse;
+}
+.contribute-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+.contribute-content .contribute-text .inner-text{
+    max-width: 500px;
+}
+.contribute-content .contribute-text p{
+    padding: 20px 0;
+}
+.contribute-content .contribute-text p span{
+    display: block;
+    margin-top: 10px;
+}
+.contribute-content .contribute-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* contritute part end */

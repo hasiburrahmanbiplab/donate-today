@@ -32,23 +32,37 @@
       max-width: 360px;
     }
     /* donatePlant part start */
+    .contribute-container {
+      row-gap: 127px;
+    }
     .donate-plan-container .donate-card {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       row-gap: 20px;
-      border: 1px solid blue;
     }
     .donate-card .inner-card{
       max-width: 330px;
     }
+    /* contribute part start */
+    .contribute-container .contribute-content{
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    .contribute-content .contribute-text{
+      max-width: 460px;
+      text-align: center;
+    }
+    .contribute-container .contribute-content:nth-child(2){
+      flex-direction: column-reverse;
+  }
   }
   /* Small Devices (Tablets) */
   @media (min-width: 577px) and (max-width: 767.99px) {
     /* Styles for tablets */
     .section-title {
-      font-size: 35px;
+      font-size: 30px;
     }
     #header{
       height: 375px;
@@ -79,7 +93,6 @@
       justify-content: center;
       align-items: center;
       row-gap: 20px;
-      border: 1px solid blue;
     }
     .donate-card .inner-card{
       max-width: 330px;
@@ -88,6 +101,12 @@
   /* Medium Devices (Small Laptops) */
   @media (min-width: 768px) and (max-width: 991.99px) {
     /* Styles for small laptops */
+    .section-title {
+      font-size: 40px;
+      font-weight: 600;
+      color: #121212;
+      line-height: auto;
+    }
      #header{
       height: 425px;
      }
