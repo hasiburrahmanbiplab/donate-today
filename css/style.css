@@ -188,7 +188,7 @@ a{
     row-gap: 15px;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
 }
 .donate-card .inner-card:hover{
     background-color: #fff4d6;
@@ -231,6 +231,7 @@ a{
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 16px;
 }
 /* contritute part end */
 /* update part start */
@@ -255,7 +256,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0a9134d;
+    background-color: #4c4b4936;
+    border-radius: 16px;
 }
 .update-form form{
     width: 80%;
