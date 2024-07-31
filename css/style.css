@@ -140,17 +140,17 @@ a{
     justify-content: center;
     border-radius: 10px;
     align-items: center;
-    transition: ease-in-out 0.2s;
+    transition: all linear 0.2s;
 }
 .inner-counter .item-1 ul li:hover{
     border-radius: 10px;
-    transition: ease-in-out 0.2s;
+    transition: all linear 0.2s;
     box-shadow: #ff5959ae 0px 0px 10px;
     cursor: pointer;
 }
 .inner-counter .item-1 ul li:hover span{
   color: #FF5959;
-  transition: ease-in-out 0.2s;
+  transition: all linear 0.2s;
 }
 .inner-counter .item-1 ul li span{
     font-size: 25px;
@@ -189,14 +189,26 @@ a{
     padding: 30px;
     border-radius: 16px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
-}
-.donate-card .inner-card:hover{
-    background-color: #fff4d6;
+    transition: all linear 0.3s;
 }
 .inner-card .card-text h4{
     font-size: 18px;
     font-weight: 600;
     color: #121212;
+    transition: all linear 0.3s;
+}
+.donate-card .inner-card:hover{
+    background-color: #FF5959;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.donate-card .inner-card:hover .card-text h4{
+    color: rgb(255, 255, 255) !important;
+    transition: all linear 0.3s;
+}
+.donate-card .inner-card:hover .card-text p{
+    color: rgb(255, 255, 255) !important;
+    transition: all linear 0.3s;
 }
 .inner-card .card-text p{
     padding: 5px 0;
