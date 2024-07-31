@@ -35,7 +35,7 @@
     }
     /* donatePlant part start */
     .contribute-container {
-      row-gap: 127px;
+      row-gap: 37px;
     }
     .donate-plan-container .donate-card {
       display: flex;
@@ -57,7 +57,7 @@
       text-align: center;
     }
     .contribute-container .contribute-content:nth-child(2){
-      flex-direction: column-reverse;
+      flex-direction: column;
   }
   /* update */
   .update-container .update-form {
@@ -76,6 +76,9 @@
   /* Small Devices (Tablets) */
   @media (min-width: 576px) and (max-width: 767.99px) {
     /* Styles for tablets */
+    body .gap:nth-child(2n) {
+      margin: 50px 0;
+    }
     .section-title {
       font-size: 30px;
     }
@@ -111,6 +114,20 @@
     .donate-card .inner-card{
       max-width: 330px;
     }
+    /* donate part end */
+    /* contriburte part start */
+    .contribute-container .contribute-content{
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    .contribute-content .contribute-text{
+      max-width: 460px;
+      text-align: center;
+    }
+    .contribute-container .contribute-content:nth-child(2){
+      flex-direction: column;
+  }
+    /* contriburte part end */
     /* update part start */
     .update-container .update-form {
       width: 90%;
