@@ -44,7 +44,7 @@ a{
     font-size: 14px;
     font-weight: 400;
     color: #707070;
-    line-height: 30px;
+    line-height: 177%;
 }
 .common-btn{
     font-size: 14px;
@@ -90,7 +90,7 @@ a{
     font-size: 55px;
     font-weight: 600;
     color: #ffffff;
-    line-height: 75px;
+    line-height: 130%;
   }
 .banner-text p{
     width: 100%;
@@ -131,21 +131,22 @@ a{
    display: flex;
    justify-content: center;
     align-items: center;
-   gap: 5px;
+   gap: 15px;
 }
 .inner-counter .item-1 ul li{
     width: 120px;
     height: 110px;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
     align-items: center;
-    border: 1px solid transparent;
     transition: ease-in-out 0.2s;
 }
 .inner-counter .item-1 ul li:hover{
-    border: 2px solid #FF5959;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: ease-in-out 0.2s;
+    box-shadow: #ff5959ae 0px 0px 10px;
+    cursor: pointer;
 }
 .inner-counter .item-1 ul li:hover span{
   color: #FF5959;
@@ -179,13 +180,14 @@ a{
 }
 .donate-plan-container .donate-card{
     display: flex;
-    gap:20px;
+    gap:30px;
 }
 .donate-card .inner-card{
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .donate-card .inner-card:hover{
